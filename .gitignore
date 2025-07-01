@@ -1,0 +1,64 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuración del entorno
+.env
+*.env
+*.env.local
+
+# Archivos de sesión o temporales
+*.log
+*.cache
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+
+# Directorios comunes a ignorar
+/vendor/
+/node_modules/
+/bower_components/
+/tmp/
+/cache/
+/logs/
+/uploads/
+/sessions/
+
+# Archivos PHP específicos del entorno
+init.php
+config.php
+
+# Archivos de base de datos
+*.sql
+*.sqlite
+*.db
+
+# Archivos de usuario
+*.zip
+*.rar
+*.7z
+
+# IDEs y editores
+.vscode/
+.idea/
+*.code-workspace
+
+# Sistema operativo y archivos ocultos
+*.~*
+*.bak
+*.tmp
+*.old
+
+# Archivos de Leaflet u otros JS externos si se instalan localmente
+leaflet/
+
+# Backup de imágenes o mapas
+assets/mapa_redm.jpg
+assets/icons/
+
+
+*.key
+*.pem
+*.crt
