@@ -94,5 +94,5 @@ document.getElementById('icono_usuario')?.addEventListener('change', function() 
 
 ## 🧑‍💻 Autor
 
-Desarrollado por: [Tu Nombre o Nombre del Servidor RedM]  
+Desarrollado por: Zowix  
 Repositorio diseñado para facilitar la experiencia de juego mediante un sistema visual y funcional.
