@@ -1,8 +1,8 @@
-# 🗺️ Mapa Interactivo RedM
+# Mapa Interactivo RedM
 
 Este es un sistema web que permite a jugadores del servidor de Red Dead Redemption 2 (RedM) añadir, visualizar, compartir y administrar localizaciones en un mapa interactivo personalizado.
 
-## ✅ Características
+## Características
 
 - Visualización de marcadores **públicos**, **privados** y **compartidos**
 - Inicio de sesión y registro de usuarios
@@ -14,14 +14,14 @@ Este es un sistema web que permite a jugadores del servidor de Red Dead Redempti
 - Soporte para **iconos personalizados**
 - Modal de login y registro integrado
 
-## 🛠️ Requisitos
+##  Requisitos
 
 - PHP 7.4 o superior
 - Servidor web (Apache, Nginx, XAMPP, Laragon, etc.)
 - Base de datos MySQL o MariaDB
 - Navegador moderno (Chrome, Firefox, Edge...)
 
-## ⚙️ Instalación
+##  Instalación
 
 1. **Clona o descarga el proyecto** en tu servidor local o web
 
@@ -42,12 +42,12 @@ Este es un sistema web que permite a jugadores del servidor de Red Dead Redempti
    http://localhost/tu-carpeta/index.php
    ```
 
-## 👥 Roles de Usuario
+##  Roles de Usuario
 
 - `admin`: puede añadir marcadores públicos, ver todo y acceder al panel de administración.
 - `usuario`: puede añadir marcadores privados, ver públicos y acceder a los compartidos que le otorguen.
 
-## ➕ Añadir nuevos iconos personalizados
+##  Añadir nuevos iconos personalizados
 
 ### 1. Copia los archivos PNG a la carpeta:
 ```
@@ -76,7 +76,7 @@ document.getElementById('icono_usuario')?.addEventListener('change', function() 
 });
 ```
 
-## 🧪 Funcionalidades adicionales
+##  Funcionalidades adicionales
 
 - Botón de **compartir marcadores** con usuarios
 - **Filtros dinámicos** (mostrar todos, privados, compartidos, por grupo)
@@ -85,14 +85,14 @@ document.getElementById('icono_usuario')?.addEventListener('change', function() 
 - Soporte para multiusuarios
 - Preparado para borrado con clic derecho
 
-## 🔐 Seguridad
+##  Seguridad
 
 - Conexión a base de datos con **PDO y parámetros preparados**
 - Escape de contenido con `htmlspecialchars` para evitar XSS
 - Control de acceso con `$_SESSION['usuario_id']`
 - Código modularizable y seguro
 
-## 🧑‍💻 Autor
+##  Autor
 
 Desarrollado por: Zowix  
 Repositorio diseñado para facilitar la experiencia de juego mediante un sistema visual y funcional.
